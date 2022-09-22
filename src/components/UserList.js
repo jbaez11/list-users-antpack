@@ -20,7 +20,7 @@ export default function userList() {
       <header className='flex justify-between items-center py-4'>
         <h1>Usuarios registrados{users.length}</h1>
     </header>
-    <div className="grid grid-cols-3 gap-3">
+    <div className="grid md:grid-cols-3 md:gap-3 sm:grid-cols-1 sm:gap-1">
     {users.map(user => (
         <div class="w-full max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <div class="flex justify-end px-4 pt-4">
