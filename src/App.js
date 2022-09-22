@@ -3,7 +3,7 @@ import UserList from './components/UserList'
 
 function App() {
   return (
-    <div className="bg-zinc-900 h-full h-screen text-white">
+    <div className="bg-zinc-900 max-h-full text-white">
      <div className='flex items-center justify-center'>
         <UserList/>
      </div>
